@@ -2,10 +2,15 @@
     color:teal;
     background-color: rgb(140, 216, 208);
 }
-.name{
+.Flavors{
     text-align: center;
     transform: translate(0%, 0%);
     transition-duration: 0s;
     font-family: 'Flavors', cursive;
-    font-size: 100;
+    font-size: 70;
+}
+.Srisakdi{
+    text-align: center;
+    font-family: 'Srisakdi', cursive;
+    font-size: 50;
 }
