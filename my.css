@@ -7,24 +7,21 @@
     transform: translate(0%, 0%);
     transition-duration: 0s;
     font-family: 'Flavors', cursive;
-    font-size: 70;
 }
 .Srisakdi{
     text-align: center;
     font-family: 'Srisakdi', cursive;
-    font-size: 50;
 }
-.marquee p {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    -moz-animation: scroll-left 2s linear infinite;
-    -webkit-animation: scroll-left 2s linear infinite;
-    animation: scroll-left 20s linear infinite;
+#footer{
+    align-self: auto;
+}
+#mc{
+    background-color: rgb(127, 216, 207);
+    behavior="scroll" 
+    width="100%" 
+    direction="left"
+}
+#p{
+    font-family: 'Flavors', cursive;
+    font-size: 20;
 }
