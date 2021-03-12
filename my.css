@@ -1,26 +1,39 @@
+/* available */
 #body{
     color:teal;
-    background-color: rgb(140, 216, 208);
+    background-image: url("social-media.jpg") ;
 }
+
+#social-acc{}
+
+.email-id{
+    text-decoration: none;
+    color: orangered;
+}
+
 .Flavors{
     text-align: center;
     transform: translate(0%, 0%);
     transition-duration: 0s;
     font-family: 'Flavors', cursive;
 }
+
 .Srisakdi{
     text-align: center;
     font-family: 'Srisakdi', cursive;
 }
+
 #footer{
     align-self: auto;
 }
+
 #mc{
     background-color: rgb(127, 216, 207);
     behavior="scroll" 
     width="100%" 
     direction="left"
 }
+
 #p{
     font-family: 'Flavors', cursive;
     font-size: 20;
