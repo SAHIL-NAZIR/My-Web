@@ -4,7 +4,30 @@
     background-image: url("social-media.jpg") ;
 }
 
-#social-acc{}
+#social-acc{
+    background-color: #D3D0DA;
+    height: 70;
+    text-align: right;
+    margin-bottom: %;
+}
+#TG{
+    box-shadow: 2px 3px gray;
+    margin-left: 113px;
+    height: 30%;
+    width: 5%;
+    background-color:transparent;
+    float: left;
+   border: 0px solid black;
+}
+#TF{
+    box-shadow: 2px 3px gray;
+    margin-left: 113px;
+    height: 30%;
+    width: 5%;
+    background-color:transparent;
+    float: left;
+   border: 0px solid black;
+}
 
 .email-id{
     text-decoration: none;
