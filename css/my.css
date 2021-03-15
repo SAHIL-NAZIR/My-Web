@@ -1,6 +1,6 @@
 #body{          /*this is for body*/
     color:teal;
-    background: url("images/linkedin-jpeg.png") ;
+    background-image: url("");
     background-size: cover;
     height: 100vh;
 }
@@ -89,3 +89,4 @@
 }
 
 
+}
