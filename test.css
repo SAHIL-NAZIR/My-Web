@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+ul
+{
+    position: relative;
+    display: flex;
+}
+ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 0 80px;
+    cursor: pointer;
+}
+ul li a
+{
+    text-decoration: none;
+}
+ul li a .fa
+{
+    font-size: 6em;
+    color: #222;
+}
+.ul #li1 a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 6em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.ul #li1 a:nth-child(1)::before
+{
+    content: '\f099';
+    color: #1da1f2;
+    border-bottom: 4px solid #1da1f2;
+}
+.ul #li1 a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+
+
+.ul #li2 a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 6em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.ul #li2 a:nth-child(1)::before
+{
+    content: '\f232';
+    color: #f21de0;
+    border-bottom: 4px solid #1da1f2;
+}
+.ul #li2 a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+
+/*a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+a:nth-child(1)::before
+{
+    content: '\f099';
+    color: #1da1f2;
+    border-bottom: 4px solid #1da1f2;
+}
+a i:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}*/
