@@ -34,7 +34,7 @@ ul #twitter a
 ul #twitter a .fa
 {
     font-size: 4em;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 #ul #twitter a::before
@@ -76,7 +76,7 @@ ul #codepen a
 ul #codepen a .fa
 {
     font-size: 4em;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 #ul #codepen a::before
@@ -93,8 +93,8 @@ ul #codepen a .fa
 #ul #codepen a:nth-child(1)::before
 {
     content: '\f1cb';
-    color: #ae63e4;
-    border-bottom: 4px solid #ae63e4;
+    color: #122329;
+    border-bottom: 4px solid #122329;
 }
 #ul #codepen a:hover::before
 {
@@ -118,7 +118,7 @@ ul #github a
 ul #github a .fa
 {
     font-size: 4em;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 #ul #github a::before
@@ -136,7 +136,7 @@ ul #github a .fa
 {
     content: '\f09b';
     color:  #080b0e;
-    border-bottom: 4px solid  #000000;
+    border-bottom: 4px solid  #122329;
 }
 #ul #github a:hover::before
 {
@@ -160,7 +160,7 @@ ul #linkedin a
 ul #linkedin a .fa
 {
     font-size: 4em;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 #ul #linkedin a::before
@@ -202,7 +202,7 @@ ul #facebook a
 ul #facebook a .fa
 {
     font-size: 4em;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 #ul #facebook a::before
@@ -244,7 +244,7 @@ ul #instagram a
 ul #instagram a .fa
 {
     font-size: 4em;
-    color: rgb(105, 105, 105);
+    color: #696969;
 }
 
 #ul #instagram a::before
