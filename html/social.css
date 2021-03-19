@@ -4,67 +4,185 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
+div
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     background: #000;
 }
+
 ul
 {
     position: relative;
     display: flex;
 }
-ul li
+
+            /*Twitter start/
+ul #twitter
 {
-    position: relative;
+    position: sticky;
     list-style: none;
-    margin: 0 80px;
+    margin: 0 50px;
     cursor: pointer;
 }
-ul li a
+ul #twitter a
 {
     text-decoration: none;
 }
-ul li a .fa
+ul #twitter a .fa
 {
-    font-size: 6em;
+    font-size: 4em;
     color: #222;
 }
-ul li::before
+
+#ul #twitter a::before
 {
     font-family: fontAwesome;
     position: absolute;
     top: 0;
     left: 0;
-    font-size: 6em;
+    font-size: 4em;
     height: 0;
     overflow: hidden;
-    transition: 0.5s ease-in-out;
+    transition: 0.7s ease-in-out;
 }
-ul li:nth-child(1)::before
+#ul #twitter a:nth-child(1)::before
 {
     content: '\f099';
     color: #1da1f2;
     border-bottom: 4px solid #1da1f2;
 }
-ul li:nth-child(2)::before
+#ul #twitter a:hover::before
 {
-    content: '\f232';
-    color: #25d366;
-    border-bottom: 4px solid #25d366;
-}
-ul li:nth-child(3)::before
-{
-    content: '\f09b';
-    color: teal;
-    border-bottom: 4px solid #1da1f2;
-}
-ul li:hover::before
-{
+    opacity: 1;
     height: 100%;
 }
+            /*Twitter end*/
 
+            /*CodePen start/
+ul #codepen
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+ul #codepen a
+{
+    text-decoration: none;
+}
+ul #codepen a .fa
+{
+    font-size: 4em;
+    color: #222;
+}
+
+#ul #codepen a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+#ul #codepen a:nth-child(1)::before
+{
+    content: '\f1cb';
+    color: #ae63e4;
+    border-bottom: 4px solid #ae63e4;
+}
+#ul #codepen a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+            /*CodePen end*/
+
+            /*github start/
+ul #github
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+ul #github a
+{
+    text-decoration: none;
+}
+ul #github a .fa
+{
+    font-size: 4em;
+    color: #222;
+}
+
+#ul #github a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+#ul #github a:nth-child(1)::before
+{
+    content: '\f09b';
+    color:  #4183c4;
+    border-bottom: 4px solid  #4183c4;
+}
+#ul #github a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+            /*github end*/
+            /*linkedin start/
+ul #linkedin
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+ul #linkedin a
+{
+    text-decoration: none;
+}
+ul #linkedin a .fa
+{
+    font-size: 4em;
+    color: #222;
+}
+
+#ul #linkedin a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+#ul #linkedin a:nth-child(1)::before
+{
+    content: '\f08c';
+    color: #0077b5;
+    border-bottom: 4px solid #0077b5;
+}
+#ul #linkedin a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+            /*linkedin end*/
 
