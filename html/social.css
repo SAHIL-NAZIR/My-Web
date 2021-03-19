@@ -10,7 +10,7 @@ div
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background: #000;
+    background: #fff;
 }
 
 ul
@@ -19,7 +19,7 @@ ul
     display: flex;
 }
 
-            /*Twitter start/
+            /*Twitter start*/
 ul #twitter
 {
     position: sticky;
@@ -34,7 +34,7 @@ ul #twitter a
 ul #twitter a .fa
 {
     font-size: 4em;
-    color: #222;
+    color: rgb(105, 105, 105);
 }
 
 #ul #twitter a::before
@@ -61,7 +61,7 @@ ul #twitter a .fa
 }
             /*Twitter end*/
 
-            /*CodePen start/
+            /*CodePen start*/
 ul #codepen
 {
     position: sticky;
@@ -76,7 +76,7 @@ ul #codepen a
 ul #codepen a .fa
 {
     font-size: 4em;
-    color: #222;
+    color: rgb(105, 105, 105);
 }
 
 #ul #codepen a::before
@@ -103,7 +103,7 @@ ul #codepen a .fa
 }
             /*CodePen end*/
 
-            /*github start/
+            /*github start*/
 ul #github
 {
     position: sticky;
@@ -118,7 +118,7 @@ ul #github a
 ul #github a .fa
 {
     font-size: 4em;
-    color: #222;
+    color: rgb(105, 105, 105);
 }
 
 #ul #github a::before
@@ -135,8 +135,8 @@ ul #github a .fa
 #ul #github a:nth-child(1)::before
 {
     content: '\f09b';
-    color:  #4183c4;
-    border-bottom: 4px solid  #4183c4;
+    color:  #080b0e;
+    border-bottom: 4px solid  #000000;
 }
 #ul #github a:hover::before
 {
@@ -144,7 +144,8 @@ ul #github a .fa
     height: 100%;
 }
             /*github end*/
-            /*linkedin start/
+
+            /*linkedin start*/
 ul #linkedin
 {
     position: sticky;
@@ -159,7 +160,7 @@ ul #linkedin a
 ul #linkedin a .fa
 {
     font-size: 4em;
-    color: #222;
+    color: rgb(105, 105, 105);
 }
 
 #ul #linkedin a::before
@@ -175,7 +176,7 @@ ul #linkedin a .fa
 }
 #ul #linkedin a:nth-child(1)::before
 {
-    content: '\f08c';
+    content: '\f0e1';
     color: #0077b5;
     border-bottom: 4px solid #0077b5;
 }
@@ -186,3 +187,88 @@ ul #linkedin a .fa
 }
             /*linkedin end*/
 
+            /*facebook start*/
+ul #facebook
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+ul #facebook a
+{
+    text-decoration: none;
+}
+ul #facebook a .fa
+{
+    font-size: 4em;
+    color: rgb(105, 105, 105);
+}
+
+#ul #facebook a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+#ul #facebook a:nth-child(1)::before
+{
+    content: '\f082';
+    color:  #3b5998;
+    border-bottom: 4px solid  #3b5998;
+}
+#ul #facebook a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+            /*facebook end*/
+
+            /*instagram start*/
+ul #instagram
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+ul #instagram a
+{
+    text-decoration: none;
+}
+ul #instagram a .fa
+{
+    font-size: 4em;
+    color: rgb(105, 105, 105);
+}
+
+#ul #instagram a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+#ul #instagram a:nth-child(1)::before
+{
+    content: '\f16d';
+    color:  #8a3ab9;
+    border-bottom: 4px solid  #8a3ab9;
+}
+#ul #instagram a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+                        /*instagram end*/
+            
+            
