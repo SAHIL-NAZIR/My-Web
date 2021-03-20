@@ -27,13 +27,6 @@ ul
 }
 
             /*Twitter start*/
-ul #twitter
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #twitter a
 {
     text-decoration: none;
@@ -69,13 +62,6 @@ ul #twitter a .fa
             /*Twitter end*/
 
             /*CodePen start*/
-ul #codepen
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #codepen a
 {
     text-decoration: none;
@@ -111,13 +97,6 @@ ul #codepen a .fa
             /*CodePen end*/
 
             /*github start*/
-ul #github
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #github a
 {
     text-decoration: none;
@@ -153,13 +132,6 @@ ul #github a .fa
             /*github end*/
 
             /*linkedin start*/
-ul #linkedin
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #linkedin a
 {
     text-decoration: none;
@@ -195,13 +167,6 @@ ul #linkedin a .fa
             /*linkedin end*/
 
             /*facebook start*/
-ul #facebook
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #facebook a
 {
     text-decoration: none;
@@ -237,13 +202,6 @@ ul #facebook a .fa
             /*facebook end*/
 
             /*instagram start*/
-ul #instagram
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #instagram a
 {
     text-decoration: none;
@@ -277,16 +235,8 @@ ul #instagram a .fa
     height: 100%;
 }
             /*instagram end*/
-            
-            
+               
             /*twitch start*/
-ul #twitch
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #twitch a
 {
     text-decoration: none;
@@ -322,13 +272,6 @@ ul #twitch a .fa
             /*twitch end*/
 
             /*dribbble start*/
-ul #dribbble
-{
-    position: sticky;
-    list-style: none;
-    margin: 0 50px;
-    cursor: pointer;
-}
 ul #dribbble a
 {
     text-decoration: none;
@@ -362,3 +305,17 @@ ul #dribbble a .fa
     height: 100%;
 }
             /*dribbble end*/
+
+
+
+
+
+
+ul #twitter,ul #codepen,ul #github,ul #linkedin,ul #facebook,ul #instagram,ul #twitch,ul #dribbble
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+            
