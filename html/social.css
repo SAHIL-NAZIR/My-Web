@@ -1,8 +1,12 @@
-*
+*       /*this is for everything*/
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body
+{
+    background: url('https://visme.co/blog/wp-content/uploads/2016/01/17-1024x512.jpg');
 }
 div
 {
@@ -10,7 +14,10 @@ div
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background: whitesmoke;
+    background-color: #cccccc;
+    height: 50%;
+    width: 80%;
+    margin: 10% 10%;
 }
 
 ul
@@ -313,3 +320,45 @@ ul #twitch a .fa
     height: 100%;
 }
             /*twitch end*/
+
+            /*dribbble start*/
+ul #dribbble
+{
+    position: sticky;
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+ul #dribbble a
+{
+    text-decoration: none;
+}
+ul #dribbble a .fa
+{
+    font-size: 4em;
+    color: #696969;
+}
+
+#ul #dribbble a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+#ul #dribbble a:nth-child(1)::before
+{
+    content: '\f17d';
+    color:  #E94C88;
+    border-bottom: 4px solid  #E94C88;
+}
+#ul #dribbble a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+            /*dribbble end*/
