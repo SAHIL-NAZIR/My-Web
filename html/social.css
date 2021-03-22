@@ -4,10 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body
 {
     background: url('https://i.stack.imgur.com/Of2w5.jpg');
 }
+
 div
 {
     display: flex;
@@ -29,269 +31,106 @@ ul
     display: flex;
 }
 
-            /*Twitter start*/
-ul #twitter a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #twitter a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #twitter a:nth-child(1)::before
-{
-    content: '\f099';
-    color: #1da1f2;
-    border-bottom: 4px solid #1da1f2;
-}
-#ul #twitter a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*Twitter end*/
-
-            /*CodePen start*/
-ul #codepen a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #codepen a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #codepen a:nth-child(1)::before
-{
-    content: '\f1cb';
-    color: #122329;
-    border-bottom: 5px solid #122329;
-}
-#ul #codepen a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*CodePen end*/
-
-            /*github start*/
-ul #github a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #github a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #github a:nth-child(1)::before
-{
-    content: '\f09b';
-    color:  #080b0e;
-    border-bottom: 4px solid  #080b0e;
-}
-#ul #github a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*github end*/
-
-            /*linkedin start*/
-ul #linkedin a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #linkedin a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #linkedin a:nth-child(1)::before
-{
-    content: '\f0e1';
-    color: #0077b5;
-    border-bottom: 4px solid #0077b5;
-}
-#ul #linkedin a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*linkedin end*/
-
-            /*facebook start*/
-ul #facebook a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #facebook a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #facebook a:nth-child(1)::before
-{
-    content: '\f082';
-    color:  #3b5998;
-    border-bottom: 4px solid  #3b5998;
-}
-#ul #facebook a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*facebook end*/
-
-            /*instagram start*/
-ul #instagram a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #instagram a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #instagram a:nth-child(1)::before
-{
-    content: '\f16d';
-    color:  #8a3ab9;
-    border-bottom: 4px solid  #8a3ab9;
-}
-#ul #instagram a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*instagram end*/
-               
-            /*twitch start*/
-ul #twitch a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #twitch a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #twitch a:nth-child(1)::before
-{
-    content: '\f1e8';
-    color:  #6441a5;
-    border-bottom: 4px solid  #6441a5;
-}
-#ul #twitch a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*twitch end*/
-
-            /*dribbble start*/
-ul #dribbble a .fa
-{
-    font-size: 4em;
-    color: #696969;
-}
-
-#ul #dribbble a::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 4em;
-    height: 0;
-    overflow: hidden;
-    transition: 0.7s ease-in-out;
-}
-#ul #dribbble a:nth-child(1)::before
-{
-    content: '\f17d';
-    color:  #E94C88;
-    border-bottom: 4px solid  #E94C88;
-}
-#ul #dribbble a:hover::before
-{
-    opacity: 1;
-    height: 100%;
-}
-            /*dribbble end*/
-
-
-
-
-
-
-ul #twitter,ul #codepen,ul #github,ul #linkedin,ul #facebook,ul #instagram,ul #twitch,ul #dribbble
+ul li
 {
     position: sticky;
     list-style: none;
     margin: 0 50px;
     cursor: pointer;
-}
-            
-
-ul #twitter a,ul #codepen a,ul #github a,ul #linkedin a,ul #facebook a,ul #instagram a,ul #twitch a,ul #dribbble a
-{
     text-decoration: none;
 }
+
+ul a .fa
+{
+    font-size: 4em;
+    color: #696969;
+}
+
+ul a::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+
+ul li a:hover::before
+{
+    opacity: 1;
+    height: 100%;
+}
+            /*twitter logo*/
+ul #twitter a:nth-child(1)::before
+{
+    content: '\f099';
+    color: #1da1f2;
+    border-bottom: 4px solid #1da1f2;
+}
+            /*codepen logo*/
+ul #codepen a:nth-child(1)::before
+{
+    content: '\f1cb';
+    color: #122329;
+    border-bottom: 5px solid #122329;
+}
+            /*github logo*/
+ul #github a:nth-child(1)::before
+{
+    content: '\f09b';
+    color:  #080b0e;
+    border-bottom: 4px solid  #080b0e;
+}
+            /*linkedin logo*/
+ul #linkedin a:nth-child(1)::before
+{
+    content: '\f0e1';
+    color: #0077b5;
+    border-bottom: 4px solid #0077b5;
+}
+            /*facebook logo*/
+ul #facebook a:nth-child(1)::before
+{
+    content: '\f082';
+    color:  #3b5998;
+    border-bottom: 4px solid  #3b5998;
+}
+            /*instagram logo*/
+ul #instagram a:nth-child(1)::before
+{
+    content: '\f16d';
+    color:  #8a3ab9;
+    border-bottom: 4px solid  #8a3ab9;
+}
+            /*twitch logo*/
+ul #twitch a:nth-child(1)::before
+{
+    content: '\f1e8';
+    color:  #6441a5;
+    border-bottom: 4px solid  #6441a5;
+}
+            /*dribbble logo*/
+ul #dribbble a:nth-child(1)::before
+{
+    content: '\f17d';
+    color:  #E94C88;
+    border-bottom: 4px solid  #E94C88;
+}
+            /*youtube logo*/
+            ul #youtube a:nth-child(1)::before
+            {
+                content: '\f16a';
+                color:  #FF0000;
+                border-bottom: 4px solid  #FF0000;
+            }
+            /*pinterest logo*/
+            ul #pinterest a:nth-child(1)::before
+            {
+                content: '\f0d2';
+                color:  #E60023;
+                border-bottom: 4px solid  #E60023;
+            }
+                        
