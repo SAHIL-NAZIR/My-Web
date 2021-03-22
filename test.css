@@ -46,7 +46,7 @@ ul li a .fa
 }
 .ul #li1 a:nth-child(1)::before
 {
-    content: '\f099';
+    content: '\f1cb';
     color: #1da1f2;
     border-bottom: 4px solid #1da1f2;
 }

@@ -30,10 +30,6 @@ ul
 }
 
             /*Twitter start*/
-ul #twitter a
-{
-    text-decoration: none;
-}
 ul #twitter a .fa
 {
     font-size: 4em;
@@ -65,10 +61,6 @@ ul #twitter a .fa
             /*Twitter end*/
 
             /*CodePen start*/
-ul #codepen a
-{
-    text-decoration: none;
-}
 ul #codepen a .fa
 {
     font-size: 4em;
@@ -90,7 +82,7 @@ ul #codepen a .fa
 {
     content: '\f1cb';
     color: #122329;
-    border-bottom: 4px solid #122329;
+    border-bottom: 5px solid #122329;
 }
 #ul #codepen a:hover::before
 {
@@ -100,10 +92,6 @@ ul #codepen a .fa
             /*CodePen end*/
 
             /*github start*/
-ul #github a
-{
-    text-decoration: none;
-}
 ul #github a .fa
 {
     font-size: 4em;
@@ -125,7 +113,7 @@ ul #github a .fa
 {
     content: '\f09b';
     color:  #080b0e;
-    border-bottom: 4px solid  #122329;
+    border-bottom: 4px solid  #080b0e;
 }
 #ul #github a:hover::before
 {
@@ -135,10 +123,6 @@ ul #github a .fa
             /*github end*/
 
             /*linkedin start*/
-ul #linkedin a
-{
-    text-decoration: none;
-}
 ul #linkedin a .fa
 {
     font-size: 4em;
@@ -170,10 +154,6 @@ ul #linkedin a .fa
             /*linkedin end*/
 
             /*facebook start*/
-ul #facebook a
-{
-    text-decoration: none;
-}
 ul #facebook a .fa
 {
     font-size: 4em;
@@ -205,10 +185,6 @@ ul #facebook a .fa
             /*facebook end*/
 
             /*instagram start*/
-ul #instagram a
-{
-    text-decoration: none;
-}
 ul #instagram a .fa
 {
     font-size: 4em;
@@ -240,10 +216,6 @@ ul #instagram a .fa
             /*instagram end*/
                
             /*twitch start*/
-ul #twitch a
-{
-    text-decoration: none;
-}
 ul #twitch a .fa
 {
     font-size: 4em;
@@ -275,10 +247,6 @@ ul #twitch a .fa
             /*twitch end*/
 
             /*dribbble start*/
-ul #dribbble a
-{
-    text-decoration: none;
-}
 ul #dribbble a .fa
 {
     font-size: 4em;
@@ -322,3 +290,8 @@ ul #twitter,ul #codepen,ul #github,ul #linkedin,ul #facebook,ul #instagram,ul #t
     cursor: pointer;
 }
             
+
+ul #twitter a,ul #codepen a,ul #github a,ul #linkedin a,ul #facebook a,ul #instagram a,ul #twitch a,ul #dribbble a
+{
+    text-decoration: none;
+}
