@@ -120,17 +120,17 @@ ul #dribbble a:nth-child(1)::before
     border-bottom: 4px solid  #E94C88;
 }
             /*youtube logo*/
-            ul #youtube a:nth-child(1)::before
-            {
-                content: '\f16a';
-                color:  #FF0000;
-                border-bottom: 4px solid  #FF0000;
-            }
+ul #youtube a:nth-child(1)::before
+{
+    content: '\f16a';
+    color:  #FF0000;
+    border-bottom: 4px solid  #FF0000;
+}
             /*pinterest logo*/
-            ul #pinterest a:nth-child(1)::before
-            {
-                content: '\f0d2';
-                color:  #E60023;
-                border-bottom: 4px solid  #E60023;
-            }
+ul #pinterest a:nth-child(1)::before
+{
+    content: '\f0d2';
+    color:  #E60023;
+    border-bottom: 4px solid  #E60023;
+}
                         
