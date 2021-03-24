@@ -63,20 +63,6 @@ ul li a:hover::before
     opacity: 1;
     height: 100%;
 }
-            /*twitter logo*/
-ul #twitter a:nth-child(1)::before
-{
-    content: '\f099';
-    color: #1da1f2;
-    border-bottom: 4px solid #1da1f2;
-}
-            /*codepen logo*/
-ul #codepen a:nth-child(1)::before
-{
-    content: '\f1cb';
-    color: #122329;
-    border-bottom: 5px solid #122329;
-}
             /*github logo*/
 ul #github a:nth-child(1)::before
 {
@@ -91,6 +77,27 @@ ul #linkedin a:nth-child(1)::before
     color: #0077b5;
     border-bottom: 4px solid #0077b5;
 }
+            /*instagram logo*/
+ul #instagram a:nth-child(1)::before
+{
+    content: '\f16d';
+    color:  #8a3ab9;
+    border-bottom: 4px solid  #8a3ab9;
+}
+            /*codepen logo*/
+ul #codepen a:nth-child(1)::before
+{
+    content: '\f1cb';
+    color: #122329;
+    border-bottom: 4px solid #122329;
+}
+            /*youtube logo*/
+ul #youtube a:nth-child(1)::before
+{
+    content: '\f16a';
+    color:  #FF0000;
+    border-bottom: 4px solid  #FF0000;
+}
             /*facebook logo*/
 ul #facebook a:nth-child(1)::before
 {
@@ -98,12 +105,19 @@ ul #facebook a:nth-child(1)::before
     color:  #3b5998;
     border-bottom: 4px solid  #3b5998;
 }
-            /*instagram logo*/
-ul #instagram a:nth-child(1)::before
+            /*twitter logo*/
+ul #twitter a:nth-child(1)::before
 {
-    content: '\f16d';
-    color:  #8a3ab9;
-    border-bottom: 4px solid  #8a3ab9;
+    content: '\f099';
+    color: #1da1f2;
+    border-bottom: 4px solid #1da1f2;
+}
+            /*pinterest logo*/
+ul #pinterest a:nth-child(1)::before
+{
+    content: '\f0d2';
+    color:  #E60023;
+    border-bottom: 4px solid  #E60023;
 }
             /*twitch logo*/
 ul #twitch a:nth-child(1)::before
@@ -118,19 +132,5 @@ ul #dribbble a:nth-child(1)::before
     content: '\f17d';
     color:  #E94C88;
     border-bottom: 4px solid  #E94C88;
-}
-            /*youtube logo*/
-ul #youtube a:nth-child(1)::before
-{
-    content: '\f16a';
-    color:  #FF0000;
-    border-bottom: 4px solid  #FF0000;
-}
-            /*pinterest logo*/
-ul #pinterest a:nth-child(1)::before
-{
-    content: '\f0d2';
-    color:  #E60023;
-    border-bottom: 4px solid  #E60023;
 }
                         
