@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Bungee+Shade&family=Codystar:wght@300&family=Faster+One&family=Fredericka+the+Great&family=Libre+Barcode+EAN13+Text&family=Monoton&family=Press+Start+2P&display=swap');
+
+body
+{
+    background: linear-gradient(to bottom, #40b3c7 , #4ece7f 70%);
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    color: #06533a;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 100;
+}
+h2
+{
+font-family: 'Ballet', cursive;
+font-size: 100;
+color: #06533a;
+}
+h3
+{
+    color: #06533a;
+font-family: 'Monoton', cursive;
+font-size: 100;
+}
+h4
+{
+    font-family: 'Codystar', cursive;
+    font-size: 100;
+}
+h5
+{
+    font-family: 'Faster One', cursive;
+    font-size: 100;
+}
+h6
+{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 100;
+}
+p
+{
+    font-family: 'Libre Barcode EAN13 Text', cursive;
+    font-size: 100;
+}
+
+span
+{
+    font-size: 100;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
